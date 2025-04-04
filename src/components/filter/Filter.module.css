@@ -1,0 +1,125 @@
+.searchContainer {
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    width: 100%;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .searchContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.searchResults {
+    color: #2dc275;
+    width: 2000px;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (width<=991px) {
+    .searchResults {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.filterContainer {
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    width: 1320px;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .filterContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (width<=640px) {
+    .filterContainer {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.dateFilter {
+    background-color: #fbfbfb !important;
+    border-radius: 21px !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 28px;
+    padding: 4px 27px !important;
+    display: flex;
+    border: none !important;
+}
+
+@media (width<=640px) {
+    .dateFilter {
+        width: 100%;
+    }
+}
+
+.filterIcon {
+    width: 18px;
+    height: 18px;
+}
+
+.filterText {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.chevronIcon {
+    width: 15px;
+    height: 15px;
+}
+
+.filterButton {
+    background-color: #2dc275 !important;
+    border-radius: 21px !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 28px;
+    padding: 4px 27px !important;
+    display: flex;
+    border: none !important;
+}
+
+@media (width<=640px) {
+    .filterButton {
+        width: 100%;
+    }
+}
+
+.musicFilter {
+    background-color: #2dc275 !important;
+    border-radius: 21px !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 28px;
+    padding: 4px 27px !important;
+    display: flex;
+    border: none !important;
+}
+
+@media (width<=640px) {
+    .musicFilter {
+        width: 100%;
+    }
+}
