@@ -1,0 +1,602 @@
+.danhschvmrng {
+    background-color: #000;
+    border-radius: 11px;
+    font-family:
+        Inter,
+        -apple-system,
+        Roboto,
+        Helvetica,
+        sans-serif;
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+
+.thngtinv {
+    color: #fff;
+    background-color: #27272a;
+    border-radius: 11px 11px 0 0;
+    width: 100%;
+    min-height: 53px;
+    padding-left: 10px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+@media (width<=991px) {
+    .thngtinv {
+        max-width: 100%;
+    }
+}
+
+.div {
+    color: #fff;
+    background-color: #262629;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px 100px;
+    width: 100%;
+    padding: 23px 44px;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .div {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.div2 {
+    flex-wrap: wrap;
+    justify-content: start;
+    align-self: stretch;
+    align-items: center;
+    gap: 21px;
+    width: 302px;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+    display: flex;
+}
+
+.img {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.thng032025 {
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.muavngay {
+    background-color: #2dc275;
+    border-radius: 4px;
+    align-self: stretch;
+    gap: 10px;
+    width: 273px;
+    min-width: 240px;
+    min-height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 8px 75px;
+    font-size: 20px;
+}
+
+@media (width<=991px) {
+    .muavngay {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.vvVip3 {
+    background-color: #262629;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 23px 44px;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .vvVip3 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.div3 {
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    gap: 40px 100px;
+    width: 100%;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .div3 {
+        max-width: 100%;
+    }
+}
+
+.vvip1 {
+    color: #fff;
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+}
+
+.css4800000 {
+    color: #2dc275;
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+.vvVip4 {
+    background-color: #262629;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 23px 44px;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .vvVip4 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.div4 {
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    gap: 40px 100px;
+    width: 100%;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .div4 {
+        max-width: 100%;
+    }
+}
+
+.vvip2 {
+    color: #fff;
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+}
+
+.vvVip5 {
+    background-color: #262629;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 23px 44px;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .vvVip5 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.div5 {
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    gap: 40px 100px;
+    width: 100%;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .div5 {
+        max-width: 100%;
+    }
+}
+
+.vip1 {
+    color: #fff;
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+}
+
+.vvVip6 {
+    background-color: #262629;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 23px 44px;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .vvVip6 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.div6 {
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    gap: 40px 100px;
+    width: 100%;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .div6 {
+        max-width: 100%;
+    }
+}
+
+.vip2 {
+    color: #fff;
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+}
+
+.vvVip7 {
+    background-color: #262629;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 23px 44px;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .vvVip7 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.div7 {
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    gap: 40px 100px;
+    width: 100%;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .div7 {
+        max-width: 100%;
+    }
+}
+
+.a1 {
+    color: #fff;
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+}
+
+.vvVip8 {
+    background-color: #262629;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 23px 44px;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .vvVip8 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.div8 {
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    gap: 40px 100px;
+    width: 100%;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .div8 {
+        max-width: 100%;
+    }
+}
+
+.a2 {
+    color: #fff;
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+}
+
+.vvVip9 {
+    background-color: #262629;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 23px 44px;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .vvVip9 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.div9 {
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    gap: 40px 100px;
+    width: 100%;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .div9 {
+        max-width: 100%;
+    }
+}
+
+.b1 {
+    color: #fff;
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+}
+
+.vvVip10 {
+    background-color: #262629;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 23px 44px;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .vvVip10 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.div10 {
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    gap: 40px 100px;
+    width: 100%;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .div10 {
+        max-width: 100%;
+    }
+}
+
+.b2 {
+    color: #fff;
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+}
+
+.vvVip11 {
+    background-color: #262629;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 23px 44px;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .vvVip11 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.div11 {
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    gap: 40px 100px;
+    width: 100%;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .div11 {
+        max-width: 100%;
+    }
+}
+
+.vvVip12 {
+    background-color: #262629;
+    border-radius: 0 0 11px 11px;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 23px 44px;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .vvVip12 {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.div12 {
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    gap: 40px 100px;
+    width: 100%;
+    min-width: 240px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+@media (width<=991px) {
+    .div12 {
+        max-width: 100%;
+    }
+}
+
+.c2 {
+    color: #fff;
+    align-self: stretch;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 16px;
+}
+
+.custom-collapse {
+    background-color: transparent;
+}
+
+.custom-collapse>.ant-collapse-item>.ant-collapse-header {
+    padding: 0;
+}
+
+.custom-collapse>.ant-collapse-item>.ant-collapse-content>.ant-collapse-content-box {
+    padding: 0;
+}
+
+.custom-collapse .ant-collapse-item {
+    border-bottom: none;
+}
+
+.custom-collapse .ant-collapse-content {
+    border-top: none;
+    background-color: transparent;
+}
+
+/* Loại bỏ TẤT CẢ padding của Collapse và các thành phần con */
+.no-padding-collapse.ant-collapse {
+    background: transparent;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.no-padding-collapse .ant-collapse-item {
+    border-bottom: 0 !important;
+}
+
+/* Quan trọng nhất: Xóa padding của Content Box */
+.no-padding-collapse .ant-collapse-content-box {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Xóa padding của Header (nếu cần) */
+.no-padding-collapse .ant-collapse-header {
+    padding: 0 !important;
+}
+
+/* Đảm bảo không có khoảng trống nào xuất hiện */
+.no-padding-collapse .ant-collapse-content {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+}

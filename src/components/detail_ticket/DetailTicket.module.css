@@ -1,0 +1,249 @@
+.container {
+    width: 100%;
+    min-height: screen;
+    background-color: #27272a;
+    justify-content: center;
+    padding: 32px 40px;
+    display: flex;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Giảm khoảng cách giữa các phần */
+    position: relative;
+}
+
+.eventCard {
+    background-color: #38383d;
+    border-radius: 30px;
+    flex-direction: column;
+    width: 466px;
+    height: 457px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (width<=991px) {
+    .eventCard {
+        width: 100%;
+    }
+}
+
+@media (width<=640px) {
+    .eventCard {
+        height: auto;
+    }
+}
+
+.eventHeader {
+    margin-top: 68px;
+}
+
+.eventTitle {
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@media (width<=640px) {
+    .eventTitle {
+        font-size: 20px;
+    }
+}
+
+.dateContainer {
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.dateTime {
+    color: #2dc275;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (width<=640px) {
+    .dateTime {
+        font-size: 16px;
+    }
+}
+
+.locationContainer {
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.venueContainer {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+}
+
+.venueName {
+    color: #2dc275;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (width<=640px) {
+    .venueName {
+        font-size: 16px;
+    }
+}
+
+.venueAddress {
+    color: #fff;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media (width<=640px) {
+    .venueAddress {
+        font-size: 16px;
+    }
+}
+
+.eventFooter {
+    margin-top: auto;
+}
+
+.divider {
+    background-color: #fff;
+    width: 100%;
+    height: 5px;
+    margin-bottom: 16px;
+}
+
+.priceContainer {
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 16px;
+    display: flex;
+}
+
+.priceLabel {
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.priceValue {
+    color: #2dc275;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.buyButton {
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #2dc275;
+    border-radius: 4px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    height: auto;
+}
+
+.buyButton:hover {
+    background-color: #25a865;
+}
+
+.bannerContainer {
+    border-radius: 30px;
+    width: 813px;
+    height: 457px;
+    right: 0;
+    overflow: hidden;
+    justify-content: space-between;
+
+}
+
+@media (width<=991px) {
+    .bannerContainer {
+        display: none;
+    }
+}
+
+.bannerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.arrowIcon {
+    width: 29px;
+    height: 29px;
+}
+
+.topCorners {
+    width: 80px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    left: 701px;
+}
+
+@media (width<=991px) {
+    .topCorners {
+        display: none;
+    }
+}
+
+.cornerLeft {
+    background-color: #27272a;
+    border-radius: 0 0 60px;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    left: 0;
+    transform: rotate(90deg);
+}
+
+.cornerRight {
+    background-color: #27272a;
+    border-radius: 0 0 60px;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    right: 0;
+}
+
+.bottomCorners {
+    width: 80px;
+    height: 38px;
+    position: absolute;
+    bottom: 0;
+    left: 701px;
+}
+
+@media (width<=991px) {
+    .bottomCorners {
+        display: none;
+    }
+}
