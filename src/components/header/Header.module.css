@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #2dc275;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 223.516px;
+    height: 38.282px;
+}
+
+.rightSection {
+    display: flex;
+    align-items: center;
+    gap: 77px;
+}
+
+.ticketSection {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.ticketIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.ticketText {
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menuSection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.accountButton,
+.languageButton {
+    padding: 0;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.accountButton:hover,
+.languageButton:hover {
+    background: transparent;
+}
+
+.mobileMenuButton {
+    display: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 0;
+    height: auto;
+}
+
+.mobileMenuButton:hover {
+    background: transparent;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+
+
+    .rightSection {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 640px) {
+
+
+    .logo {
+        width: 150px;
+        height: 26px;
+    }
+
+    .rightSection {
+        gap: 20px;
+    }
+
+    .ticketSection {
+        display: none;
+    }
+
+    .mobileMenuButton {
+        display: block;
+    }
+}

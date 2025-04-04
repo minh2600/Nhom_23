@@ -1,0 +1,29 @@
+.musicSection {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.sectionHeader {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 120px;
+    display: flex;
+}
+
+.viewMore {
+    align-items: center;
+    gap: 5px;
+    display: flex;
+}
+
+.viewMoreText {
+    color: #858589 !important;
+    font-family: Inter !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}

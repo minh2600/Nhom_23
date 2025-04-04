@@ -1,0 +1,12 @@
+.homeContainer {
+    background-color: #27272A;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* Khoảng cách giữa các items */
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}

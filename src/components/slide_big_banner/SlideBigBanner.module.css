@@ -1,0 +1,16 @@
+.contentStyles {
+    height: 343px;
+    width: 614px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.imgStyle {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+}
