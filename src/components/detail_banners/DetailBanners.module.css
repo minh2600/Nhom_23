@@ -9,6 +9,7 @@
     display: flex;
 }
 
+
 .headerContainer {
     flex-direction: column;
     justify-content: center;

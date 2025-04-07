@@ -1,0 +1,13 @@
+.containerBody {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1280px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    margin: 16px 120.4px;
+}
+
+/* abc */

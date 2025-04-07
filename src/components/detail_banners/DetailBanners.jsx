@@ -11,6 +11,7 @@ function DetailBanners() {
         setIsCollapsed(!isCollapsed);
     };
 
+
     return (
         <article className={styles.mainContainer}>
             {/* Header Section */}

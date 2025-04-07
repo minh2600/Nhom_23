@@ -74,7 +74,7 @@ function ListTickets() {
         },
         {
             type: "C2",
-            price: "4.800.000 đ",
+            price: "5.800.000 đ",
             className: styles.vvVip12,
             rowClassName: styles.div12,
             styleClass: "c2",

@@ -6,6 +6,7 @@ import Header from "../header/Header";
 import CategoryMenu from "../category/CategoryMenu";
 
 function DetailTicket() {
+
   return (
     <>
       <main className={styles.container}>
