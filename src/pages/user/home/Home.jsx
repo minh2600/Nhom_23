@@ -9,6 +9,7 @@ import SectionEvents from "../../../components/list_events/SectionEvents";
 const Home = () => {
     return (
         <>
+
             <Header />
             <CategoryMenu />
             <div className={styles.homeContainer}>

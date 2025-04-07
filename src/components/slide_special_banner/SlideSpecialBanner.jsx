@@ -15,7 +15,7 @@ const SlideSpecialBanner = () => {
         '../../public/special_banner/99ced3f425e39bdf7c8ef1d418e71e86.webp',
     ];
 
-    // Group images into slides of 4-5 images each
+
     const groupedImages = [];
     for (let i = 0; i < images.length; i += 4) {
         groupedImages.push(images.slice(i, i + 5)); // Get 4-5 images per slide

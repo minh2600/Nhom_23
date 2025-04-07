@@ -13,6 +13,7 @@ const SlideBigBanner = () => {
         '../../public/images/e48bd2a83fd262ddfc5265a043ca2524.jpg',
     ];
 
+
     const groupedImages = [];
     for (let i = 0; i < images.length; i += 2) {
         groupedImages.push(images.slice(i, i + 2));
