@@ -6,6 +6,7 @@ import Filter from "../../../components/filter/Filter";
 import { Card, Typography } from "antd";
 const { Title, Text } = Typography;
 const CategoryEvents = () => {
+
     return (
         <>
             <div style={{ height: 'auto', backgroundColor: '#27272A' }}>
