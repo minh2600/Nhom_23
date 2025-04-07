@@ -6,7 +6,6 @@ import { RightOutlined } from "@ant-design/icons";
 const { Title, Text } = Typography;
 
 function ListEvents() {
-
     return (
         <>
             <div className={styles.eventGrid}>
