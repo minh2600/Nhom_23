@@ -22,16 +22,7 @@ const Header = () => {
         },
     ];
 
-    // const languageItems = [
-    //     {
-    //         key: "1",
-    //         label: "English",
-    //     },
-    //     {
-    //         key: "2",
-    //         label: "Vietnamese",
-    //     },
-    // ];
+
     const languageItems = [
         {
             key: "1",
